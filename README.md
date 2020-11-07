@@ -1,5 +1,5 @@
 # Linux-Automation #fullyautomated #fullydynamic
-INTGEGRATION of linux+hadoop+webserver+docker+LVM services+AWS services
+INTGEGRATION of linux+hadoop+webserver+docker+LVM services+AWS services with python
 In this Linux Automation we have perform some tasks with the help of python in linux:
 1)hadoop automation with LVM services : from this you can create namenode , datanode , and can share flexible amount of storage to namenode with the help of LVM you can check the custer reports , you can stop both name node and data node in local side as well as server side bt just one click
 2)Webservice: You can configure webservice in local side as well as server side by just one click.

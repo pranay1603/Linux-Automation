@@ -13,4 +13,4 @@ In this Linux Automation we have perform some tasks with the help of python in l
 
 5)We have provided 18 basic linux commands you can run by just in one click
 
-6) AWS services you can perform without going in AWS console
+6)AWS services you can perform without going in AWS console

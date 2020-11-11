@@ -299,7 +299,7 @@ def program():
 			hadoop()
 		elif x==3:
 			print("\n\n.........WAIT INSTALLING NECCESSARY FILES...........")
-			sp.getoutput("tput setaf 6;rm -rf /etc/yum.repos.d/;mkdir /etc/yum.repos.d/;cd /etc/yum.repos.d/;wget https://download1.rpmfusion.org/free/el/rpmfusion-free-release-7.noarch.rpm;wget http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm;wget http://rpms.famillecollet.com/enterprise/remi-release-7.rpm;wget https://www.elrepo.org/RPM-GPG-KEY-elrepo.org;wget http://repo.webtatic.com/yum/el7/webtatic-release.rpm")
+			sp.getoutput("tput setaf 6;rm -rf /etc/yum.repos.d/;mkdir /etc/yum.repos.d/;cd /etc/yum.repos.d/;dnf install https://download1.rpmfusion.org/free/el/rpmfusion-free-release-7.noarch.rpm;dnf install http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm;dnf install http://rpms.famillecollet.com/enterprise/remi-release-7.rpm;dnf install https://www.elrepo.org/RPM-GPG-KEY-elrepo.org;dnf install http://repo.webtatic.com/yum/el7/webtatic-release.rpm")
 			file1=open("/etc/yum.repos.d/soft.repo", 'w')
 			file1.write("""[DVD1]
 baseurl=file:///run/media/root/RHEL-8-1-0-BaseOS-x86_64/AppStream
